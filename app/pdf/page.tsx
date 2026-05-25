@@ -24,7 +24,7 @@ const cases = [
     title: "生成AI活用・プロトタイプ開発",
     issue: "公文書、説明資料、内部マニュアル作成に時間がかかり、現場負担が大きい。",
     action:
-      "ChatGPT、Claude、Cursorを活用し、文書作成や業務整理、業務支援アプリのプロトタイプを作成。",
+      "ChatGPT、Gemini、NotebookLM、AntigravityClaude、Cursorを活用し、文書作成や業務整理、業務支援アプリのプロトタイプを作成。",
     result:
       "生成AIを現場業務に適用し、業務効率化と新たな支援ツールの可能性を検証。",
   },
@@ -39,7 +39,9 @@ const strengths = [
 
 const tools = [
   "ChatGPT",
-  "Claude",
+  "Gemini",
+  "NotebookLM",
+  "Antigravity",
   "Cursor",
   "Excel",
   "PowerPoint",
@@ -47,7 +49,6 @@ const tools = [
   "Google Workspace",
   "Notion",
 ];
-
 const roles = [
   "DX推進",
   "業務改善 / BPR",

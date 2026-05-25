@@ -24,7 +24,7 @@ const strengths = [
   {
     title: "生成AI・ツール活用",
     description:
-      "ChatGPT、Claude、Cursor等を活用し、文書作成、業務整理、プロトタイプ開発を実務改善に接続します。",
+      "ChatGPT、Gemini、NotebookLM、Antigravity、Cursor等を活用し、文書作成、業務整理、プロトタイプ開発を実務改善に接続します。",
   },
 ];
 
@@ -58,22 +58,22 @@ const caseStudies = [
     title: "生成AI活用・プロトタイプ開発",
     category: "Generative AI / Prototype",
     summary:
-      "ChatGPT、Claude、Cursorを活用し、公文書、説明資料、内部マニュアル作成を効率化。業務支援アプリのプロトタイプも作成。",
+      "ChatGPT、Gemini、NotebookLM、Antigravity、Cursor等を活用、公文書、説明資料、内部マニュアル作成を効率化。業務支援アプリのプロトタイプも作成。",
     results: ["資料作成・文書作成を効率化", "現場業務へのAI活用可能性を検証", "プロトタイプを通じて改善案を具体化"],
   },
 ];
 
 const tools = [
   "ChatGPT",
-  "Claude",
+  "Gemini",
+  "NotebookLM",
+  "Antigravity",
   "Cursor",
   "Excel",
   "PowerPoint",
   "Word",
   "Google Workspace",
   "Notion",
-  "Next.js",
-  "Tailwind CSS",
 ];
 
 const roles = [
