@@ -1,4 +1,4 @@
-const achievements = [
+﻿const achievements = [
   { value: "約20年", label: "公共福祉施設の運営・管理経験" },
   { value: "10施設", label: "横断の業務標準化・BPR推進" },
   { value: "月20h", label: "業務管理ツールによる工数削減" },
@@ -9,12 +9,12 @@ const strengths = [
   {
     title: "現場起点の課題発見",
     description:
-      "現場職員へのヒアリングを通じて、表面的な困りごとではなく、業務フロー・属人化・情報分断の原因を整理します。",
+      "現場職員へのヒアリングを通じて、表面的な困りごとではなく、業務フロー、属人化、情報分断の原因を整理します。",
   },
   {
     title: "BPR・業務標準化",
     description:
-      "施設ごとに異なる処理方法を可視化し、請求・集計・購買・資料作成などの業務を標準化してきました。",
+      "施設ごとに異なる処理方法を可視化し、請求、集計、購買、資料作成などの業務を標準化してきました。",
   },
   {
     title: "関係者調整・定着支援",
@@ -24,7 +24,7 @@ const strengths = [
   {
     title: "生成AI・ツール活用",
     description:
-      "ChatGPT、Gemini、NotebookLM、Antigravity、Cursor等を活用し、文書作成、業務整理、プロトタイプ開発を実務改善に接続します。",
+      "ChatGPT、Codex、Gemini、NotebookLM、Antigravity、Cursor等を活用し、文書作成、情報整理、業務整理、プロトタイプ開発、ポートフォリオ制作を実施しています。",
   },
 ];
 
@@ -34,7 +34,7 @@ const caseStudies = [
     title: "10施設横断の業務管理ツール構築",
     category: "BPR / 業務標準化",
     summary:
-      "施設ごとに異なっていた請求処理・集計業務を標準化し、利用者請求、予算資料、統計データを一元管理できる仕組みを構築。",
+      "施設ごとに異なっていた請求処理、集計業務を標準化し、利用者請求、予算資料、統計データを一元管理できる仕組みを構築。",
     results: ["月約20時間の作業工数削減", "月15時間超の残業解消", "10施設共通の業務基盤を整備"],
   },
   {
@@ -42,8 +42,8 @@ const caseStudies = [
     title: "購買BPRによるコスト削減",
     category: "Cost Reduction / Process Design",
     summary:
-      "施設・部署ごとの個別発注を見直し、在庫管理を一元化。全施設規模での集中購買体制を構築。",
-    results: ["年間消耗品費を前年比15%削減", "過剰在庫・廃棄ロスを抑制", "購買プロセスを標準化"],
+      "施設、部署ごとの個別発注を見直し、在庫管理を一元化。全施設規模での集中購買体制を構築。",
+    results: ["年間消耗品費を前年比15%削減", "過剰在庫と廃棄ロスを抑制", "購買プロセスを標準化"],
   },
   {
     number: "03",
@@ -51,20 +51,21 @@ const caseStudies = [
     category: "制度理解 / 家族対応 / リスク管理",
     summary:
       "利用者家族の状況を丁寧に確認し、公的制度活用、世帯分離、代行申請などを支援。単なる督促ではなく、制度活用と伴走支援で課題を解決。",
-    results: ["担当施設で滞納者ゼロを継続", "家族・行政との調整を実施", "財務リスクと福祉的支援を両立"],
+    results: ["担当施設で滞納者ゼロを継続", "家族、行政との調整を実施", "財務リスクと福祉的支援を両立"],
   },
   {
     number: "04",
     title: "生成AI活用・プロトタイプ開発",
     category: "Generative AI / Prototype",
     summary:
-      "ChatGPT、Gemini、NotebookLM、Antigravity、Cursor等を活用、公文書、説明資料、内部マニュアル作成を効率化。業務支援アプリのプロトタイプも作成。",
-    results: ["資料作成・文書作成を効率化", "現場業務へのAI活用可能性を検証", "プロトタイプを通じて改善案を具体化"],
+      "ChatGPT、Codex、Gemini、NotebookLM、Antigravity、Cursor等を活用し、公文書、説明資料、内部マニュアル作成を効率化。業務支援アプリやポートフォリオサイトの制作にも活用。",
+    results: ["資料作成と文書作成を効率化", "現場業務へのAI活用可能性を検証", "プロトタイプを通じて改善案を具体化"],
   },
 ];
 
 const tools = [
   "ChatGPT",
+  "Codex",
   "Gemini",
   "NotebookLM",
   "Antigravity",
@@ -73,7 +74,6 @@ const tools = [
   "PowerPoint",
   "Word",
   "Google Workspace",
-  "Notion",
 ];
 
 const roles = [
@@ -160,8 +160,8 @@ export default function Home() {
           </h2>
           <p className="mt-6 max-w-5xl text-base leading-8 text-slate-700 md:text-lg">
             公共福祉施設組合にて、総務・管理部門および施設運営支援に従事。
-            業務フロー整理、関係者調整、Excel等による業務管理、生成AIを活用した資料作成・プロトタイプ開発を通じて、
-            現場に根付く改善を推進してきました。
+            業務フロー整理、関係者調整、Excel等による業務管理、生成AIを活用した資料作成、
+            情報整理、プロトタイプ開発を通じて、現場に根付く改善を推進してきました。
           </p>
         </div>
       </section>
